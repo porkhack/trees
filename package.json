@@ -1,0 +1,26 @@
+{
+  "name": "@pork/trees",
+  "version": "1.0.0",
+  "description": "OADA Tree definitions for 2021 Pork Hack series",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porkhack/trees.git"
+  },
+  "keywords": [
+    "Pork",
+    "Hack",
+    "OADA",
+    "ASN",
+    "trees"
+  ],
+  "author": "Aaron Ault",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/porkhack/trees/issues"
+  },
+  "homepage": "https://github.com/porkhack/trees#readme"
+}
