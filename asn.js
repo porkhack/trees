@@ -8,8 +8,10 @@ module.exports = {
         "day-index": {
           "*": { // 2021-03-21
             _type: "application/vnd.trellisfw.asns.1+json",
+            _rev: 0,
             "*": { // ksuid for one ASN
               _type: "application/vnd.trellisfw.asns.1+json",
+              _rev: 0,
             }
           }
         }
