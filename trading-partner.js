@@ -1,3 +1,5 @@
+const asntree = require('./asn');
+
 module.exports = {
   bookmarks: {
     _type: "application/vnd.oada.bookmarks.1+json",
@@ -8,6 +10,7 @@ module.exports = {
         '*': {
           _type: 'application/vnd.trellisfw.trading-partner.porkhack.1+json',
           _rev: 0,
+          ...asntree,
         }
       }
     }
