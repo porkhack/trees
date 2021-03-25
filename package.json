@@ -1,6 +1,6 @@
 {
   "name": "@pork/trees",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "OADA Tree definitions for 2021 Pork Hack series",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/porkhack/trees/issues"
   },
-  "homepage": "https://github.com/porkhack/trees#readme"
+  "homepage": "https://github.com/porkhack/trees#readme",
+  "dependencies": {
+    "merge": "^2.1.1"
+  }
 }
